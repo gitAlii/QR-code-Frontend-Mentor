@@ -1,0 +1,40 @@
+body{
+    size: 1440px; 
+    text-align: center; /*makes text go to center*/
+    background-color: hsl(212, 45%, 89%);
+}
+
+#t1{
+    font-family: 'Nunito Sans', sans-serif; /*Importing a font family from google */
+    font-size: 20px;
+    font-weight: 700; /* Makes the font darker */
+    color: hsl(218, 44%, 22%);
+}
+
+#t2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    opacity: 0.5; /* opacity used to make the text more transparent*/
+}
+
+.box{
+    border-radius: 20px; /* Gives the curved edges around the box and image more pxs mean the more curved it looks */
+    background-color: white; 
+    margin: 200px 600px; /* margin used to  make the size of the white box smaller to fit the screen size show in the preview */
+    padding: 20px 20px 10px 20px; /* Padding used to add white spaces to the Qr code box */
+
+    display: flex;
+    flex-direction: column; /* makes the flex items , the text and image,  in a collum */
+    justify-content: center; /* makes the flex items , the text and image,  in the center*/
+    justify-content: space-around; /* makes the flex items , the text and image, spaced to fill the box*/
+    
+}
+
+img{
+    border-radius: 20px; /* again gives a curved look to the image corners to */
+}
+
+
+ 
